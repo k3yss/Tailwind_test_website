@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Medical Front Page</title>
+  </head>
+  <body>
+    <div
+      class="w-full bg-no-repeat bg-cover h-screen backdrop-blur-3xl"
+      style="
+        background-image: url('/dist/resorces/doctor.jpg');
+        content: '';
+        opacity: 0.9;
+      "
+    >
+      <nav id="navbar" class="flex flex-row justify-between p-12 h-1/6">
+        <h1 class="logo text-3xl">Health Care</h1>
+        <ul class="links flex text-3xl">
+          <li class="px-10"><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div
+        style="height: 80vh"
+        class="showcase flex flex-col justify-center items-center"
+      >
+        <h1 class="hero text-7xl py-6">Health Care</h1>
+        <p class="hero-p text-3xl py-2">Health is Wealth</p>
+        <div class="btn py-5">
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mx-5">
+            Doctor 
+          </button>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mx-5">
+            Patient
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
