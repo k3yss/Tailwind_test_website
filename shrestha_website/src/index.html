@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Medical Front Page</title>
+    <style>
+      .bg-image {
+        background-image: url("/dist/resorces/doctor.jpg");
+      }
+      .dark-color {
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="bg-image absolute bg-no-repeat -z-50 h-full w-full bg-center bg-cover opacity-60"
+    ></div>
+    <nav
+      id="navbar"
+      class="flex flex-row justify-between items-center p-12 h-1/6"
+    >
+      <h1 class="logo text-3xl dark-color">Health Care</h1>
+      <ul class="links flex text-3xl justify-between mx-10 dark-color">
+        <li class="pr-3"><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div
+      style="height: 80vh"
+      class="showcase flex flex-col justify-center items-center"
+    >
+      <h1 class="hero text-9xl py-6 te" style="color: #1b5b66">Health Care</h1>
+      <p class="hero-p text-3xl py-1 dark-color">Health is Wealth</p>
+      <div class="btn py-5">
+        <button
+          class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border-none rounded mr-5"
+        >
+          Doctor
+        </button>
+
+        <button
+          class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 border-none rounded ml-5"
+        >
+          Patient
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

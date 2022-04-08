@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <style>
+      *{
+        font-family: 'Roboto', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="overlay fixed h-screen w-screen top-0 left-0 bottom-0 right-0 z-0  bg-black opacity-50 hidden"
+    ></div>
+    <div class="wrapper z-10 h-screen w-screen">
+      <div
+        style="background-image: url('/resources/cse.jpg');
+        opacity: 0.8;"
+        class="cse bg-cover h-1/2 w-full bg-center bg-blend-difference text-8xl  cursor-pointer flex items-center justify-center md:h-screen md:w-1/2  hover:text-9xl transition-all"
+
+       onclick="location.href='#'">
+      <h1 class="text-white absolute tracking-wider">CSE</h1></div>
+      <div
+        style="background-image: url('/resources/ece.jpg');
+        opacity: 0.8;"
+        class="ece bg-cover h-1/2 w-full bg-center flex items-center cursor-pointer text-8xl justify-center md:h-screen md:w-1/2 md:left-1/2 md:top-0 md:absolute hover:text-9xl transition-all " onclick="location.href='#'"
+      ><h1 class="text-white absolute  tracking-wider">ECE</h1></div>
+    </div>
+  </div>
+    <div class="streamtext z-50 flex items-center justify-center absolute top-1/2 right-1/2 ">
+      <div class="circle h-32 w-32 rounded-full  bg-white  text-black flex items-center justify-center text-4xl absolute">
+
+        <div class="circle_text">OR</div>
+      </div>
+    </div>
+
+  </body>
+</html>
